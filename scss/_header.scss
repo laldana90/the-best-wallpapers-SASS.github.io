@@ -1,0 +1,90 @@
+/************************** HEADER *********************************/
+
+.header {
+  border: 3px solid $color-principal;
+  border-radius: 10px;
+  background-color: black;
+}
+.navbar-brand {
+  color: $color-secundario;
+  font-size: 3vw;
+  text-shadow: 3px 3px $color-principal;
+  &:hover {
+    color: $color-secundario;
+    text-shadow: none;
+  }
+}
+h2 {
+  color: $color-secundario;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  text-shadow: 4px 4px $color-principal;
+}
+.tiuloCar {
+  display: inline-block;
+  background-color: black;
+  color: $color-secundario;
+  font-size: 70px;
+  text-shadow: 5px 5px $color-principal;
+}
+h3 {
+  color: black;
+}
+h4 {
+  border: 3px solid $color-secundario;
+  border-radius: 5px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+.nav-link {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: left;
+  text-decoration: none;
+  color: $color-principal;
+  font-size: 20px;
+  &:hover {
+    border: 2px solid $color-secundario;
+    border-radius: 15px;
+    color: $color-principal;
+    box-shadow: 3px 3px white;
+  }
+}
+
+.imgCar {
+  height: 500px;
+  object-fit: cover;
+}
+
+.navbar-toggler {
+  color: white;
+  background-color: white;
+}
+
+.carousel-control-prev-icon {
+  height: 100px;
+  width: 100px;
+  outline: $color-secundario;
+  background-color: $color-principal;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid $color-secundario;
+}
+
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: $color-secundario;
+  background-color: $color-principal;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid $color-secundario;
+}
+
